@@ -1,3 +1,6 @@
 .grad02 {
-  /* Add your Grad02 styles here */
+  height: 30rem;
+  color: var(--colour-white);
+  padding: 1rem;
+
 }

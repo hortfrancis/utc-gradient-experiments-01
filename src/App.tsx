@@ -9,10 +9,10 @@ function App() {
     <>
       <nav style={{ padding: '20px', borderBottom: '1px solid #ccc' }}>
         <Link href="/grad01">
-          <a style={{ marginRight: '20px' }}>Grad01</a>
+          <a style={{ marginRight: '20px' }}>Gradient 01</a>
         </Link>
         <Link href="/grad02">
-          <a style={{ marginRight: '20px' }}>Grad02</a>
+          <a style={{ marginRight: '20px' }}>Gradient 02</a>
         </Link>
       </nav>
 
@@ -25,8 +25,8 @@ function App() {
               <h1>UTC Gradient Experiments</h1>
               <p>Navigate to:</p>
               <ul>
-                <li><Link href="/grad01"><a>Grad01</a></Link></li>
-                <li><Link href="/grad02"><a>Grad02</a></Link></li>
+                <li><Link href="/grad01"><a>Gradient 01</a></Link></li>
+                <li><Link href="/grad02"><a>Gradient 02</a></Link></li>
               </ul>
             </div>
           </Route>

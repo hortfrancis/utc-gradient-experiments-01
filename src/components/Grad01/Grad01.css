@@ -1,0 +1,8 @@
+.grad01 {
+  height: 30rem;
+  color: var(--colour-white);
+  padding: 1rem;
+
+  background: #443BFF;
+  background: radial-gradient(circle, rgba(68, 59, 255, 1) 0%, rgba(251, 176, 6, 1) 16%, rgba(104, 227, 232, 1) 15%, rgba(50, 205, 50, 1) 47%, rgba(248, 73, 193, 1) 44%, rgba(1, 32, 49, 1) 89%);
+}
