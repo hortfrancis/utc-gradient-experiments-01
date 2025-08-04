@@ -3,4 +3,30 @@
   color: var(--colour-white);
   padding: 1rem;
 
+  background: #443BFF;
+  background: linear-gradient(33deg, rgba(68, 59, 255, 1) 0%, rgba(251, 176, 6, 1) 38%, rgba(104, 227, 232, 1) 32%, rgba(50, 205, 50, 1) 70%, rgba(248, 73, 193, 1) 66%, rgba(1, 32, 49, 1) 100%);
+}
+
+/* Gradient border styles */
+.grad02-border {
+  padding: 1rem;
+  /* This creates the border thickness */
+  background: linear-gradient(33deg, rgba(68, 59, 255, 1) 0%, rgba(251, 176, 6, 1) 38%, rgba(104, 227, 232, 1) 32%, rgba(50, 205, 50, 1) 70%, rgba(248, 73, 193, 1) 66%, rgba(1, 32, 49, 1) 100%);
+  border-radius: 8px;
+  width: fit-content;
+  margin: 2rem 0;
+}
+
+.grad02-content {
+  background: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 4px;
+  /* Slightly smaller radius than the outer container */
+  min-height: 200px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
