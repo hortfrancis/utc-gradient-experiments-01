@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+
+:root {
+  --colour-cyan: #68E3E8;
+  --colour-orange: #FBB006;
+  --colour-purple: #443BFF;
+  --colour-black: #012031;
+  --colour-magenta: #F849C1;
+  --colour-green: #32CD32;
+  --colour-white: #FFFFFF;
+
+  font-family: "Recursive", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--colour-white);
+  color: var(--colour-black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--colour-purple);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: 2px solid var(--colour-purple);
+    outline-offset: 2px;
+  }
+
+  &:visited {
+    color: var(--colour-purple);
+  }
+}
